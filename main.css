@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aboutthebrand {
+    max-width: 635px;
+    height: 113px;
+    padding: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+
+.logo img {
+    width: auto;
+    height: 186px;
+}
+
+.tab {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    width: auto;
+    height: 18px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    border: 0.2px solid rgb(228, 228, 228);
+}
+
+:hover.button {
+    background: #eaeaea;
+}
+
+.tab1 {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    border: 0.2px black solid;
+}
