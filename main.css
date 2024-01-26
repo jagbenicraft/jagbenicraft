@@ -98,6 +98,9 @@ a{
 }
 
 
+@media only screen and (min-width : 908px)  {
+ 
+
 /* header */
 
 .header{
@@ -520,7 +523,7 @@ justify-content: center;
 .calloutimg{
   min-height:300px;
   width:auto;
-  border-radius: 0px 14px 14px 0px;
+  border-radius: 0px 13px 13px 0px;
 }
 .calloutinfo a {
   margin-top:20px;
@@ -541,7 +544,7 @@ justify-content: center;
 /* footer */
 
 footer{
-    height:100vh;
+    height:50vh;
     width:100vw;
     display: flex;
     flex-direction: row;
@@ -565,7 +568,7 @@ footer a{
 
 
 
-
+}
 
 
     
@@ -751,8 +754,6 @@ footer a{
       }
 
 /* main body */
-
-
 
 
   .slide1{
@@ -961,15 +962,12 @@ footer a{
     background-position: center center;
    }
 
-  
-  .callout:hover{
-    
-  }
+ 
    .callout{
     margin:30px 35px;
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:50% 50%;
+    grid-template-rows:2fr 1fr;
     border: 1px solid #9A2827;
     border-radius: 14px;
     
@@ -981,9 +979,9 @@ footer a{
   }
   .calloutimg{
     grid-row:1;
-    min-height:200px;
+    
     width:auto;
-    border-radius:14px 14px 0px 0px ;
+    border-radius:13px 13px 0px 0px ;
   }
   .calloutinfo a {
     margin-top:20px;
