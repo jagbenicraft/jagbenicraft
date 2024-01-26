@@ -526,14 +526,15 @@ justify-content: center;
   margin-top:20px;
 }
 
+
 .cimg1{
-  background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c1.jpg);
+  background-image:url(assets/c1.jpeg);
    background-position:center;
   background-size:cover;
 }
 
 .cimg2{
-  background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c2.jpg);
+  background-image:url(assets/c2.jpeg);
    background-position:center;
   background-size:cover;
 }
@@ -961,7 +962,9 @@ footer a{
    }
 
   
-  
+  .callout:hover{
+    
+  }
    .callout{
     margin:30px 35px;
     display:grid;
@@ -987,13 +990,13 @@ footer a{
   }
   
   .cimg1{
-    background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c1.jpg);
+    background-image:url(assets/c1.jpeg);
      background-position:center;
     background-size:cover;
   }
   
   .cimg2{
-    background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c2.jpg);
+    background-image:url(assets/c2.jpeg);
      background-position:center;
     background-size:cover;
   }
