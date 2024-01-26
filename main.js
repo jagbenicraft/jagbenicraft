@@ -25,9 +25,10 @@ const al = gsap
       start: "top top",
       end: "+=150%",
       pin: ".slide2",
-     
-      scrub: 0.75
-     
+      
+      
+      scrub: 0.75,
+      invalidateOnRefresh: true
     }
   })
 

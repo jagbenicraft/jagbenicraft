@@ -13,9 +13,7 @@ a{
 }
 /* background colour */ body{background-color: var(--two);}
 
-@media only screen and (min-width : 908px)  {
-    
- 
+
 .bg-lines{
     position: fixed;
     top:0;
@@ -471,6 +469,74 @@ justify-content: center;
 
 /* grid1 */
 
+.callout{
+  margin:50px 100px;
+  display:grid;
+  grid-template-columns:60% 40%;
+  border: 1px solid #9A2827;
+  border-radius: 14px;
+  background: linear-gradient(to right, #EAE2D0 50%, #9A2827 50%);
+  background-size: 200% 100%;
+  background-position:left bottom;
+  transition:all 0.5s ease;
+}
+.callout a{
+  background: linear-gradient(to right, #EAE2D0 50%, #9A2827 50%);
+  background-size: 200% 100%;
+  background-position:left bottom;
+  transition:all 0.5s ease;
+  
+}
+.callout h1{
+  transition:all 0.5s ease;
+  
+}
+.callout p{
+  transition:all 0.5s ease;
+  
+}
+.callout:hover{
+  color:white;
+  background-position:right bottom;
+}
+.callout:hover h1{
+  color:white;
+  background-position:right bottom;
+}
+.callout:hover p{
+  
+  color:white;
+  background-position:right bottom;
+}
+.callout:hover a{
+  color:white;
+  background-position:right bottom;
+  border:1px #EAE2D0 solid;
+}
+.calloutinfo{
+  padding:30px;
+  align-self:center;
+}
+.calloutimg{
+  min-height:300px;
+  width:auto;
+  border-radius: 0px 14px 14px 0px;
+}
+.calloutinfo a {
+  margin-top:20px;
+}
+
+.cimg1{
+  background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c1.jpg);
+   background-position:center;
+  background-size:cover;
+}
+
+.cimg2{
+  background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c2.jpg);
+   background-position:center;
+  background-size:cover;
+}
 /* footer */
 
 footer{
@@ -500,8 +566,6 @@ footer a{
 
 
 
-
-}
 
     
 
@@ -898,7 +962,41 @@ footer a{
 
   
   
-
+   .callout{
+    margin:30px 35px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:50% 50%;
+    border: 1px solid #9A2827;
+    border-radius: 14px;
+    
+  }
+  .calloutinfo{
+    grid-row:2 ;
+    padding:30px;
+    
+  }
+  .calloutimg{
+    grid-row:1;
+    min-height:200px;
+    width:auto;
+    border-radius:14px 14px 0px 0px ;
+  }
+  .calloutinfo a {
+    margin-top:20px;
+  }
+  
+  .cimg1{
+    background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c1.jpg);
+     background-position:center;
+    background-size:cover;
+  }
+  
+  .cimg2{
+    background-image:url(https://res.cloudinary.com/dyag5tn5v/image/upload/v1706277336/new%20jc%20website%20assets/c2.jpg);
+     background-position:center;
+    background-size:cover;
+  }
 /* footer */
 
 footer{
